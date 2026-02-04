@@ -1,0 +1,10 @@
+[package]
+name = "bevy_mod_ui_render_vello"
+version = "0.1.0"
+edition = "2024"
+description = "Alternative bevy_ui renderer built on Vello."
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+bevy_ui = "0.18"
+vello = "0.7.0"
