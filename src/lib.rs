@@ -1,14 +1,9 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+//! Renderer for Bevy UI using Vello
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+use bevy_app::Plugin;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
+pub struct BevyUiRenderVelloPlugin;
+
+impl Plugin for BevyUiRenderVelloPlugin {
+    fn build(&self, app: &mut bevy_app::App) {}
 }

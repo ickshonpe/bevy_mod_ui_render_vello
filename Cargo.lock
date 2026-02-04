@@ -544,6 +544,7 @@ dependencies = [
 name = "bevy_mod_ui_render_vello"
 version = "0.1.0"
 dependencies = [
+ "bevy_app",
  "bevy_ui",
  "vello",
 ]
